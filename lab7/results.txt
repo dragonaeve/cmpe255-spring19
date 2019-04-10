@@ -1,0 +1,44 @@
+Polynomial confusion matrix
+ [[ 6  0  0]
+ [ 0 10  2]
+ [ 0  1 11]]
+Polynomial classification report
+                  precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00         6
+Iris-versicolor       0.91      0.83      0.87        12
+ Iris-virginica       0.85      0.92      0.88        12
+
+      micro avg       0.90      0.90      0.90        30
+      macro avg       0.92      0.92      0.92        30
+   weighted avg       0.90      0.90      0.90        30
+
+Gaussian confusion matrix
+ [[ 6  0  0]
+ [ 0 12  0]
+ [ 0  0 12]]
+Gaussian classification report
+                  precision    recall  f1-score   support
+
+    Iris-setosa       1.00      1.00      1.00         6
+Iris-versicolor       1.00      1.00      1.00        12
+ Iris-virginica       1.00      1.00      1.00        12
+
+      micro avg       1.00      1.00      1.00        30
+      macro avg       1.00      1.00      1.00        30
+   weighted avg       1.00      1.00      1.00        30
+
+Sigmoid confusion matrix
+ [[ 6  0  0]
+ [12  0  0]
+ [12  0  0]]
+Sigmoid classification report
+                  precision    recall  f1-score   support
+
+    Iris-setosa       0.20      1.00      0.33         6
+Iris-versicolor       0.00      0.00      0.00        12
+ Iris-virginica       0.00      0.00      0.00        12
+
+      micro avg       0.20      0.20      0.20        30
+      macro avg       0.07      0.33      0.11        30
+   weighted avg       0.04      0.20      0.07        30
